@@ -1,9 +1,8 @@
 ---
 title: Journal Cover
-summary: This post has disabled table of contents.
+summary: My journal cover
 created: 2022-10-05
-tags: ['Front-Matter']
-toc: false
+tags: ['Journal', '2D', 'F1']
 ---
 
 
