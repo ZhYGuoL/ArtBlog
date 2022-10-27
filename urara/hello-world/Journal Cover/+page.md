@@ -20,4 +20,3 @@ tags: ['Journal', '2D', 'F1']
 ### The Question of Future
 
   While I was thinking of the prompt "what will you be in the future", I struggled to narrow it down to a certain idea. Therefore, I thought it would be wise to make a more character-oriented piece: instead of "what will you do", "`who will you be`". As ascertained through this submission, I prize the ideas of skill, talent, creativity - all of which I see myself valuing in the future. Yet I recognize that they, despite their power, must be strung together by the uncertainty of `risk`. Despite never having taken an Arts class, I regardless chose to take the course simply because doing so would enable me to express the values I hold by pursuing complex and challenging subjects. 
-valuing synonyms: 
