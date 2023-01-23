@@ -1,0 +1,101 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-image: url('wallpaper6.jpg');
+    
+    background-position: center;
+    height: 2160px;
+
+    position: relative;
+}
+
+
+
+
+.neu-card {
+    border-radius: 24px;
+    background: rgb(209, 209, 209);
+    box-shadow:  14px 14px 28px #bababa, -14px -14px 28px #e8e8e8;
+    width: 80%;
+    height: 100%;
+    /* center x axis */
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: 1 / 1 / 1 / 1;
+    /* center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.5em + 2vw); 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif, !important;
+    border:0px;
+}
+
+.neu-card:focus {
+    outline: none;
+}
+/* if neu-card is clicked, make the neumorphism button depressed */
+.neu-card:active {
+    background: #e0e0e0;
+    box-shadow: inset 14px 14px 28px #bcbcbc, inset -14px -14px 28px #ffffff;
+    font-size: calc(0.5em + 1.95vw); 
+}
+/* centre div "panel" */
+.glass {
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.484);
+
+    /* center div */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.card-content {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+#globe {
+    height: 100%; 
+    width: 100%;
+}
+
+.card-title {
+    margin-top: 0; 
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+p, a {
+    font-size: 1rem;
+}
+
+a {
+    color: #4d4ae8;
+    text-decoration: none;
+}

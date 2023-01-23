@@ -63,6 +63,8 @@ const cpDir = (src: string) =>
     })
   )
 
+
+
 const mkDir = (src: string, { dest = [path.join('src/routes', src.slice(6)), path.join('static', src.slice(6))] } = {}) => {
   dest.forEach(path =>
     fs
