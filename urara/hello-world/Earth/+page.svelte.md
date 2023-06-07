@@ -1,13 +1,11 @@
 ---
-title: 'Tye Dye'
-image: '/hello-world/RedPurple.png'
-summary: My journal cover \n 2332
+title: 'Earth'
+image: '/hello-world/Earth.png'
 created: 2022-11-01
 updated: 2022-12-12
 tags:
   - 'Digital'
   - 'Experimetal'
-  - 'Work'
 ---
 
 Welcome to Urara! this article contains some basic operations to help you quickly get started.

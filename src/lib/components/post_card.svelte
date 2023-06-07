@@ -66,21 +66,11 @@
     </figure>
   {/if}
   <div
-    class={`card-body gap-0 ${
+    class={`card-body gap-0 ${  
       preview && post.type === 'article' && post.image ? 'md:col-start-1 md:row-start-1 md:text-neutral-content md:z-20' : ''
     }`}>
-    <div class="flex flex-col gap-2">
-      {#if post.image && !preview}
-        <figure
-          class={`md:order-last mb-4 ${post.type === 'article' ? 'flex-col gap-2 -mx-4 -mt-8 md:mt-0' : 'flex-col -mx-8'}`}>
-          <Image
-            class={`${post.type === 'article' ? 'u-featured rounded-box shadow-xl' : 'u-photo'}`}
-            src={post.image}
-            alt={post.image}
-            {loading}
-            {decoding} />
-        </figure>
-      {/if}
+    <div class="flex flex-col gap-10">
+
       <Status {post} {preview} />
       {#if post.title}
         {#if preview}
@@ -90,7 +80,7 @@
             <a itemprop="url" class="u-url p-name" href={post.path}>{post.title ?? post.path.slice(1)}</a>
           </h2>
         {:else}
-          <h1 itemprop="name headline" class="card-title text-3xl mb-8 p-name">{post.title ?? post.path.slice(1)}</h1>
+          <!-- <h1 itemprop="name headline" class="card-title text-3xl mb-8 p-name">{post.title ?? post.path.slice(1)}</h1> -->
         {/if}
       {/if}
       {#if post.summary}
